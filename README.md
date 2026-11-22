@@ -6,9 +6,9 @@
 [进入工作室 · Open the studio](https://elysiaivy.github.io/grokbot-winter-studio/studio.html) ·
 [下载离线 HTML · Download](https://elysiaivy.github.io/grokbot-winter-studio/#download)
 
-[![下雪的街道、灯火通明的工作室和中央圣诞树](./winter-studio.webp)](https://elysiaivy.github.io/grokbot-winter-studio/)
+[![松湾冬港、临街的两层工作室和木码头](./winter-studio.webp)](https://elysiaivy.github.io/grokbot-winter-studio/)
 
-窗外下着雪，量化机器人还在敲键盘，档案员在壁炉旁翻书。拖动就能转到街道另一侧，放大可以看到书店橱窗与咖啡取餐窗。点一下圣诞树，可以把灯串关掉再开。
+咖啡吧楼上有一间阅览室，可以隔窗望海。在右下角选择「小镇」进入松湾冬港，沿街去面包房、在邮务所盖邮戳，或走到码头回望覆雪的工作室。
 
 ## 绑定你自己的 Grok Bot
 
@@ -21,6 +21,7 @@
 | 操作 | 方法 |
 | --- | --- |
 | 转动 / 缩放 | 拖动或方向键 / 滚轮、双指捏合或 `+` 和 `-` |
+| 楼层与小镇 | 右下角切换一楼、二楼和小镇，进入小镇后可选观景点 |
 | 工位特写 / 回到全景 | 点工位或数字键加 `Enter` / `Esc` |
 | 打开已绑定的 Bot | 点机器人或数字键加 `Shift+Enter` |
 | 门、树灯、咖啡机 | 点击物体，或按 `D`、`L`、`C` |
