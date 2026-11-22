@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101725">
+  <meta name="description" content="探索一间可互动的 3D 冬夜微缩工作室。在线体验、下载单文件 HTML，也可以把七位机器人连接到自己的 Grok Bot 会话。">
+  <meta property="og:title" content="Grokbot Winter Studio">
+  <meta property="og:description" content="An interactive winter diorama for your Grok Bot conversations.">
+  <meta property="og:image" content="https://elysiaivy.github.io/grokbot-winter-studio/winter-studio.webp">
+  <link rel="canonical" href="https://elysiaivy.github.io/grokbot-winter-studio/">
+  <title>Grokbot Winter Studio · 冬夜工作室</title>
+  <link rel="stylesheet" href="./showcase.css">
+  <script src="./showcase.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip" href="#main" data-en="Skip to content">跳到正文</a>
+  <header class="header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top" lang="en">
+        <span class="mark" aria-hidden="true">✦</span>
+        <span>Grokbot Winter Studio</span>
+      </a>
+      <nav aria-label="主导航 / Main navigation">
+        <a class="nav-gallery" href="#gallery" data-en="Gallery">场景细节</a>
+        <a href="#setup" data-en="Setup">绑定指南</a>
+        <button class="locale" type="button" aria-label="Read in English" hidden>EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="overline" data-en="Interactive 3D diorama">可互动的 3D 微缩场景</p>
+        <h1 id="hero-title" data-en="Winter Studio">冬夜工作室</h1>
+        <p class="intro" data-en="A snowy street, a glowing hearth, and seven robots at work. Explore the studio or connect its robots to your own Grok Bot conversations.">一条下雪的小街、一座亮着的壁炉，和七位各忙各的机器人。推近看看，也可以把它们连到你自己的 Grok Bot 会话。</p>
+        <div class="actions">
+          <a class="action primary" href="./studio.html"><span data-en="Open the studio">进入工作室</span> <span aria-hidden="true">↗</span></a>
+          <a class="action secondary" id="download" href="./studio.html" download="Grokbot-Winter-Studio.html"><span data-en="Download HTML">下载 HTML</span> <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="note" data-en="Explore in your browser, or keep a copy you can open offline.">在浏览器里直接体验，也可以下载后离线打开。</p>
+      </div>
+
+      <figure class="hero-art">
+        <img src="./winter-studio.webp" width="1200" height="850" fetchpriority="high"
+             alt="雪夜的微缩工作室，中央是亮灯的圣诞树，临街两侧分别是书店和咖啡店。"
+             data-alt-en="A miniature studio on a snowy night, with a lit Christmas tree in the center and a bookstore and coffee shop on either side of the entrance.">
+        <figcaption data-en="The winter studio in 3D">冬夜工作室全景</figcaption>
+      </figure>
+    </section>
+
+    <section id="gallery" class="gallery wrap" aria-labelledby="gallery-title">
+      <div class="section-heading">
+        <h2 id="gallery-title" data-en="A closer look">走近看一看</h2>
+        <p data-en="Turn the scene, zoom in, and see what the robots are up to.">旋转场景、拉近镜头，看看几个藏在雪夜里的细节。</p>
+      </div>
+      <div class="gallery-grid">
+        <figure>
+          <img src="./quant-desk.webp" width="1200" height="850" loading="lazy"
+               alt="青色量化机器人在带台灯和键盘的小桌前打字。"
+               data-alt-en="A teal quant robot typing at a desk with a keyboard and a small lamp.">
+          <figcaption>
+            <strong data-en="The quant desk">量化工位</strong>
+            <span data-en="A glass faceplate, knitted cuffs, and gently worn keys.">玻璃面屏、织纹袖口，还有两枚磨亮的常用键。</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="./fireplace.webp" width="1200" height="850" loading="lazy"
+               alt="砖砌壁炉里的小火照亮木柴、红色沙发和地毯。"
+               data-alt-en="A small fire in a brick hearth lights up the logs, red sofa, and rug.">
+          <figcaption>
+            <strong data-en="By the hearth">壁炉一角</strong>
+            <span data-en="Firelight settles across the sofa and the edge of the rug.">木柴上的火光照到沙发和地毯边缘。</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img class="storefronts" src="./storefronts.webp" width="1004" height="476" loading="lazy"
+               alt="MARGINS 书店的书形招牌和 HEARTH 咖啡店的琥珀色取餐窗。"
+               data-alt-en="The open-book sign at MARGINS and the amber pickup window at HEARTH Coffee.">
+          <figcaption>
+            <strong data-en="Along the street">街边小店</strong>
+            <span data-en="A book-shaped sign and an amber coffee pickup window.">一边是书形招牌，一边是亮着琥珀色灯的取餐窗。</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="setup" class="setup wrap" aria-labelledby="setup-title">
+      <div>
+        <h2 id="setup-title" data-en="Connect your own Grok Bot">连到你的 Grok Bot</h2>
+        <p class="setup-intro" data-en="The studio works as a standalone scene. To open conversations from it, install and sign in to the Grok Bot desktop app.">工作室打开即可游览。要从模型进入自己的会话，请先安装并登录 Grok Bot 桌面应用。</p>
+        <a class="action primary" href="./studio.html?bindings"><span data-en="Open Grok Bot settings">打开机器人绑定</span> <span aria-hidden="true">↗</span></a>
+      </div>
+      <div>
+        <ol class="steps">
+          <li>
+            <strong data-en="Copy your conversation ID">复制会话 ID</strong>
+            <p data-en="Open the conversation menu in the Grok Bot sidebar and copy its ID. You can also paste the full Grok Bot deep link.">在 Grok Bot 侧栏打开对应会话的菜单，复制会话 ID。也可以使用完整的 Grok Bot 深度链接。</p>
+          </li>
+          <li>
+            <strong data-en="Choose a robot and save">给角色保存绑定</strong>
+            <p data-en="Open the bot settings, paste the ID or link next to a robot, then save. Leave any other roles blank.">打开绑定面板，把 ID 或链接粘贴在对应角色旁并保存，可以只绑定一位。</p>
+          </li>
+          <li>
+            <strong data-en="Click the robot to open the conversation">点击机器人打开会话</strong>
+            <p data-en="Click a linked robot, or select it with a number key and press Shift + Enter. Allow your browser to open Grok Bot if prompted.">点击已绑定的机器人，或用数字键选中后按 Shift + Enter。如果浏览器弹出提示，允许它打开 Grok Bot。</p>
+          </li>
+        </ol>
+        <p class="privacy" data-en="Your bindings stay in this browser. The downloadable HTML starts with an empty set of links.">绑定只保存在当前浏览器。所有人下载的 HTML 都从空白绑定开始。</p>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap footer">
+    <span lang="en">Grokbot Winter Studio</span>
+    <div class="footer-links">
+      <a href="https://github.com/Elysiaivy/grokbot-winter-studio"><span data-en="View on GitHub">GitHub 源码</span> <span aria-hidden="true">↗</span></a>
+      <a href="#top"><span data-en="Back to top">返回顶部</span> <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+</body>
+</html>
